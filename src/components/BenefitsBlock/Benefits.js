@@ -1,36 +1,35 @@
 import React from 'react';
-import styles from 'styled-components';
+import styles from './Benefits.module.css';
 
 const Benefits = () => (
-  <BenefitsStyle id="benefits">
+  <div id="benefits" className={styles.container}>
     <img
+      className={styles.img}
       alt="car"
-      src="http://galickie-limuziny.com.ua/wp-content/uploads/2017/12/BMW-X5-Black.jpg"
+      src="../../img/bf73c87bc2a79f028d36fd0a77263351.png"
     />
-    <ul>
-      <li class="cart-item icon01">
-        <p class="text-title">Lorem, ipsum</p>
-        <p class="discription">
+    <ul className={styles.benefList}>
+      <li className={styles.benefItem}>
+        <p className={(styles.title, styles.icon1)}>Lorem, ipsum</p>
+        <p className={styles.discription}>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         </p>
       </li>
-      <li class="cart-item icon01">
-        <p class="text-title">Lorem, ipsum</p>
-        <p class="discription">Lorem, ipsum dolor sit amet consectetur.</p>
+      <li className={styles.benefItem}>
+        <p className={(styles.title, styles.icon2)}>Lorem, ipsum</p>
+        <p className={styles.discription}>
+          Lorem, ipsum dolor sit amet consectetur.
+        </p>
       </li>
-      <li class="cart-item icon01">
-        <p class="text-title">Lorem, ipsum</p>
-        <p class="discription">
+      <li className={styles.benefItem}>
+        <p className={(styles.title, styles.icon3)}>Lorem, ipsum</p>
+        <p className={styles.discription}>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum
           dolor sit amet consectetur adipisicing elit.
         </p>
       </li>
     </ul>
-  </BenefitsStyle>
+  </div>
 );
 
 export default Benefits;
-
-const BenefitsStyle = styles.div`
-display: flex;
-`;

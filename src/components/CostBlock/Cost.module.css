@@ -1,0 +1,44 @@
+.container {
+  padding: 40px;
+  margin: auto;
+  background: rgb(207, 202, 202);
+}
+
+.list {
+  list-style-type: none;
+  column-count: 2;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.item {
+  margin-right: 50px;
+}
+
+.title {
+  width: 300px;
+  height: 50px;
+  background-color: rgb(104, 30, 4);
+  text-align: center;
+}
+
+.discription {
+  font-size: 14px;
+}
+
+.discription::before {
+  content: '';
+  /* background-image: url(../../img/); */
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button {
+}

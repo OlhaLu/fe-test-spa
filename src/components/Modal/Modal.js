@@ -34,19 +34,15 @@ export default class Modal extends Component {
     const { children } = this.props;
 
     return createPortal(
-      <ModalStyle
+      <div
         className={styles.backdrop}
         ref={this.backdropRef}
         onClick={this.handleBackdropClick}
         role="presentation"
       >
         <div className={styles.modal}>{children}</div>
-      </ModalStyle>,
+      </div>,
       MODAL_ROOT,
     );
   }
 }
-
-const ModalStyle = styles.div`
-
-`;

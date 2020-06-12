@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-size: cover;
+  background-image: url('../../img/mercedes_PNG80135-2.png');
+  opacity: 0.8;
+  width: 1400px;
+  height: 600px;
+}
+
+.mainTitle {
+  margin: auto;
+  color: rgb(153, 120, 77);
+}

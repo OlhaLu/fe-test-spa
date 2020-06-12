@@ -1,27 +1,31 @@
 import React from 'react';
-import styles from 'styled-components';
+import styles from './Navigation.module.css';
 
 const Navigation = () => (
-  <NavigationStyle>
-    <ul>
-      <li>
-        <a href="#main">Главная </a>
+  <div className={styles.nav}>
+    <ul className={styles.navList}>
+      <li className={styles.navItem}>
+        <a href="#main" className={styles.link}>
+          Главная{' '}
+        </a>
       </li>
-      <li>
-        <a href="#benefits">Преимущества</a>
+      <li className={styles.navItem}>
+        <a href="#benefits" className={styles.link}>
+          Преимущества
+        </a>
       </li>
-      <li>
-        <a href="#cost">Стоимость</a>
+      <li className={styles.navItem}>
+        <a href="#cost" className={styles.link}>
+          Стоимость
+        </a>
       </li>
-      <li>
-        <a href="#reviews">Отзывы</a>
+      <li className={styles.navItem}>
+        <a href="#reviews" className={styles.link}>
+          Отзывы
+        </a>
       </li>
     </ul>
-  </NavigationStyle>
+  </div>
 );
 
 export default Navigation;
-
-const NavigationStyle = styles.div`
-
-`;

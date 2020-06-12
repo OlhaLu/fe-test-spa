@@ -1,25 +1,18 @@
 import React from 'react';
-import styles from 'styled-components';
+import styles from './Header.module.css';
 
 const Header = () => {
   return (
-    <HeaderStyle>
-      <img
-        alt="logo"
-        src="https://cdn.dribbble.com/users/2943657/screenshots/6983950/nexstream_win_2_logo_only.jpg"
-        width="50"
-        height="50"
-      />
-      <div>
-        <a href="+380999999999">+38 099 999 99 99</a>
-        <button>Заказать</button>
+    <div className={styles.header}>
+      <img className={styles.img} alt="logo" src="../../img/ВекторLogo.jpg" />
+      <div className={styles.contact}>
+        <a href="+380999999999" className={styles.link}>
+          +38 099 999 99 99
+        </a>
+        <button className={styles.buttonOrder}>Заказать</button>
       </div>
-    </HeaderStyle>
+    </div>
   );
 };
 
 export default Header;
-
-const HeaderStyle = styles.div`
-
-`;

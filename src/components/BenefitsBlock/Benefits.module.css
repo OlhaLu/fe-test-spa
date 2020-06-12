@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.img {
+  width: 600px;
+}
+
+.benefList {
+  display: block;
+  width: 500px;
+  list-style-type: none;
+}
+
+.benefItem {
+  margin: 20px 0;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.title::before {
+  content: '';
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icon1 {
+  background-repeat: no-repeat;
+  background-image: url(../../img/timessquare.svg);
+}
+
+.icon2 {
+  background-repeat: no-repeat;
+  background-image: url(../../img/document.svg);
+}
+
+.icon3 {
+  background-repeat: no-repeat;
+  background-image: url(../../img/business.svg);
+}
+
+.discription::before {
+  content: '';
+  border-bottom: 5px solid #9b0f0f;
+  display: block;
+  width: 60px;
+  margin-left: 0;
+}

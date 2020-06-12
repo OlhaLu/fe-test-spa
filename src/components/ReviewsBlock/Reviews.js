@@ -57,13 +57,6 @@ const cssstyle = `
     padding: 0px 40px 40px 40px;
     width: 800px;
   }
-.img {
-      line-height: 100px;
-      margin: 10px;
-      padding: 2%;
-      position: relative;
-
-  }
   .slick-next:before, .slick-prev:before {
       color: #000;
   }

@@ -1,18 +1,19 @@
 import React from 'react';
 import Navigation from '../Navigation/Navigation';
 import OrderForm from '../OrderForm/OrderForm';
-import styles from 'styled-components';
+import styles from './Main.module.css';
 
 const Main = () => {
   return (
-    <MainStyle id="main">
+    <div id="main" className={styles.container}>
       <Navigation />
+      <h1 className={styles.mainTitle}>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum
+        dolor sit amet consectetur
+      </h1>
       <OrderForm />
-    </MainStyle>
+    </div>
   );
 };
 
 export default Main;
-
-const MainStyle = styles.div`
-`;

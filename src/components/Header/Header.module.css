@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  margin-left: 130px;
+  width: 80px;
+  height: 50px;
+}
+
+.contact {
+  margin-right: 30px;
+}
+
+.link {
+  color: rgb(31, 32, 34);
+  text-decoration: none;
+}
+
+.buttonOrder {
+  color: black;
+  width: 265px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  margin: 0 15px;
+  background-color: white;
+  border: 2px solid #d63232;
+}
