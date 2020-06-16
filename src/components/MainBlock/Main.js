@@ -9,7 +9,7 @@ const Main = () => {
       <Navigation />
       <div id="main" className={styles.container}>
         <h1 className={styles.mainTitle}>
-          <span>Lorem, ipsum </span>dolorsit amet consectetur adipisicing elit.
+          <span>Lorem, ipsum dolorsit</span> amet consectetur adipisicing elit.
           Lorem, ipsum dolor sit amet consectetur
         </h1>
         <OrderForm />

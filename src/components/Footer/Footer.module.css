@@ -1,0 +1,25 @@
+.footer {
+  background-color: darkgrey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 150px;
+  height: 70px;
+  padding: 10px;
+}
+
+.btn {
+  margin: 20px 10px;
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+}
+
+.btn:hover {
+  opacity: 1;
+}

@@ -1,10 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
+import styles from './Footer.module.css';
 
 const Footer = () => {
+  const [showScroll, setShowScroll] = useState(false);
+
+  const checkScrollTop = () => {
+    if (!showScroll && window.pageYOffset > 400) {
+      setShowScroll(true);
+    } else if (showScroll && window.pageYOffset <= 400) {
+      setShowScroll(false);
+    }
+  };
+
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  window.addEventListener('scroll', checkScrollTop);
+
   return (
-    <div>
-      <img alt="logo" src="../../img/лого1.png" width="50" height="50" />
-      <button>Наверх &#11014</button>
+    <div className={styles.footer}>
+      <img
+        className={styles.logo}
+        alt="logo"
+        src={require('../../img/лого1.png')}
+      />
+      <button className={styles.btn} onClick={scrollTop}>
+        ↑
+      </button>
     </div>
   );
 };
