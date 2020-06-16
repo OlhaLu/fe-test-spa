@@ -10,19 +10,20 @@ const Benefits = () => (
     />
     <ul className={styles.benefList}>
       <li className={styles.benefItem}>
-        <p className={(styles.title, styles.icon1)}>Lorem, ipsum</p>
+        <p className={styles.title}>Lorem, ipsum</p>
+
         <p className={styles.discription}>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         </p>
       </li>
       <li className={styles.benefItem}>
-        <p className={(styles.title, styles.icon2)}>Lorem, ipsum</p>
+        <p className={styles.title}>Lorem, ipsum</p>
         <p className={styles.discription}>
           Lorem, ipsum dolor sit amet consectetur.
         </p>
       </li>
       <li className={styles.benefItem}>
-        <p className={(styles.title, styles.icon3)}>Lorem, ipsum</p>
+        <p className={styles.title}>Lorem, ipsum</p>
         <p className={styles.discription}>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum
           dolor sit amet consectetur adipisicing elit.
