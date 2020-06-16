@@ -55,7 +55,7 @@ const cssstyle = `
   .container {
     margin: 0 auto;
     padding: 0px 40px 40px 40px;
-    width: 800px;
+    width: 1000px;
   }
   .slick-next:before, .slick-prev:before {
       color: #000;

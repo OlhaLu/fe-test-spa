@@ -26,7 +26,7 @@ const Footer = () => {
         src={require('../../img/лого1.png')}
       />
       <button className={styles.btn} onClick={scrollTop}>
-        ↑
+        Наверх ↑
       </button>
     </div>
   );

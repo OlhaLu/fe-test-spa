@@ -5,6 +5,12 @@
   justify-content: center;
 }
 
+.benefTitle {
+  font-size: 38px;
+  text-align: center;
+  font-weight: bold;
+}
+
 .img {
   width: 600px;
 }
@@ -20,7 +26,8 @@
 }
 
 .title {
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .title::before {
@@ -29,6 +36,8 @@
   width: 30px;
   border-radius: 50%;
   margin-right: 25px;
+  stroke: none;
+  fill: #ff213b;
   display: inline-block;
   vertical-align: middle;
   background-repeat: no-repeat;
@@ -37,7 +46,7 @@
 
 .discription::before {
   content: '';
-  border-bottom: 5px solid #9b0f0f;
+  border-bottom: 5px solid #ff213b;
   display: block;
   width: 50px;
   margin-left: 0;

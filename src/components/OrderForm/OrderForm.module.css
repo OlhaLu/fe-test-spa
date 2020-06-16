@@ -1,5 +1,5 @@
 .container {
-  width: 600px;
+  width: 700px;
   background-image: url('../../img/4394.jpg');
   background-size: cover;
   display: flex;
@@ -7,10 +7,10 @@
 }
 
 .form {
-  width: 500px;
+  width: 700px;
   height: 300px;
   margin: auto;
-  background: #fff;
+  background: #1f2f41;
   border-radius: 2px;
   padding: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -62,10 +62,11 @@
 }
 
 .form input[type='submit'] {
-  background: #2471ff;
+  width: 300px;
+  background: #ff213b;
   border: none;
   padding: 10px 20px 10px 20px;
-  border-bottom: 3px solid #5994ff;
+  border-bottom: 3px solid #b9b9b9;
   border-radius: 3px;
   color: #d2e2ff;
 }

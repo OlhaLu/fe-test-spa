@@ -23,5 +23,4 @@ export default App;
 const AppStyle = styles.div`
 margin: auto;
 width: 1400px;
-background: #F5F5F5;
   `;

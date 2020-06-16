@@ -7,16 +7,16 @@
 }
 
 .navItem {
-  width: 150px;
+  width: 140px;
   height: 80px;
   margin: 0 10px;
   text-align: center;
 }
 
 .navItem:hover {
-  width: 150px;
-  height: 30px;
-  background-color: rgb(143, 61, 61);
+  width: 140px;
+  height: 80px;
+  background-color: #ff213b;
   cursor: pointer;
 }
 

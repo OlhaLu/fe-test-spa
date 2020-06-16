@@ -1,7 +1,14 @@
 .container {
-  padding: 40px;
+  padding: 30px;
   margin: auto;
-  background: rgb(207, 202, 202);
+  text-align: center;
+  box-shadow: 0 14px 28px#cbd2d6, 0 10px 10px #cbd2d6;
+}
+
+.costTitle {
+  font-size: 38px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .list {
@@ -14,23 +21,30 @@
 }
 
 .item {
+  width: 400px;
+  height: 560px;
   margin-right: 50px;
 }
 
 .title {
-  width: 300px;
-  height: 50px;
-  background-color: rgb(104, 30, 4);
+  font-size: 24px;
+  padding: 15px;
+  width: 400px;
+  height: 60px;
+  opacity: 0.8;
+  background-color: #172c42;
   text-align: center;
+  color: #ffffff;
 }
 
 .discription {
   font-size: 14px;
+  color: #000000;
 }
 
 .discription::before {
   content: '';
-  /* background-image: url(../../img/); */
+  background-image: url('../../img/document.svg');
   background-size: cover;
   height: 30px;
   width: 30px;
@@ -40,5 +54,42 @@
   vertical-align: middle;
 }
 
+.lastPrice {
+  text-align: center;
+  font-size: 27px;
+  text-decoration: line-through;
+}
+
+.nextPrice {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  color: #172c42;
+}
+
 .button {
+  color: black;
+  width: 325px;
+  height: 60px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  background-color: white;
+  border: 2px solid #ff213b;
+}
+
+.button:hover {
+  background-color: rgb(143, 61, 61);
+  cursor: pointer;
+  color: white;
+}
+
+.note {
+  color: #172c42;
+}
+
+.span {
+  color: #ff213b;
 }
