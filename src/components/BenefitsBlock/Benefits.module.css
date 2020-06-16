@@ -35,17 +35,17 @@
 
 .icon1 {
   background-repeat: no-repeat;
-  background-image: url(../../img/timessquare.svg);
+  background-image: url('../../img/timessquare.svg');
 }
 
 .icon2 {
   background-repeat: no-repeat;
-  background-image: url(../../img/document.svg);
+  background-image: url('../../img/document.svg');
 }
 
 .icon3 {
   background-repeat: no-repeat;
-  background-image: url(../../img/business.svg);
+  background-image: url('../../img/business.svg');
 }
 
 .discription::before {

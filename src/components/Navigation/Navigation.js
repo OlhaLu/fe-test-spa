@@ -6,7 +6,7 @@ const Navigation = () => (
     <ul className={styles.navList}>
       <li className={styles.navItem}>
         <a href="#main" className={styles.link}>
-          Главная{' '}
+          Главная
         </a>
       </li>
       <li className={styles.navItem}>

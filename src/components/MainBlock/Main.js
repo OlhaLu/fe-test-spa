@@ -5,14 +5,16 @@ import styles from './Main.module.css';
 
 const Main = () => {
   return (
-    <div id="main" className={styles.container}>
+    <>
       <Navigation />
-      <h1 className={styles.mainTitle}>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum
-        dolor sit amet consectetur
-      </h1>
-      <OrderForm />
-    </div>
+      <div id="main" className={styles.container}>
+        <h1 className={styles.mainTitle}>
+          <span>Lorem, ipsum </span>dolorsit amet consectetur adipisicing elit.
+          Lorem, ipsum dolor sit amet consectetur
+        </h1>
+        <OrderForm />
+      </div>
+    </>
   );
 };
 

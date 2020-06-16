@@ -7,7 +7,7 @@ const OrderForm = () => {
       <form className={styles.form}>
         <ul>
           <li>
-            <label for="fname">Ваше имя</label>
+            <label htmlFor="fname">Ваше имя</label>
             <input
               type="text"
               id="fname"
@@ -16,7 +16,7 @@ const OrderForm = () => {
             />
           </li>
           <li>
-            <label for="phone">Телефон</label>
+            <label htmlFor="phone">Телефон</label>
             <input
               type="text"
               id="phone"
@@ -26,7 +26,7 @@ const OrderForm = () => {
             />
           </li>
           <li>
-            <label for="email">Email</label>
+            <label htmlFor="email">Email</label>
             <input
               type="text"
               id="adr"
@@ -35,7 +35,7 @@ const OrderForm = () => {
             ></input>
           </li>
           <li>
-            <input type="submit" value="Заказать" class="btn" />
+            <input type="submit" value="Заказать" />
           </li>
         </ul>
       </form>

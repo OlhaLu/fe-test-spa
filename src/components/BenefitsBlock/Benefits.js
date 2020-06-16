@@ -6,7 +6,7 @@ const Benefits = () => (
     <img
       className={styles.img}
       alt="car"
-      src="../../img/bf73c87bc2a79f028d36fd0a77263351.png"
+      src={require('../../img/bf73c87bc2a79f028d36fd0a77263351.png')}
     />
     <ul className={styles.benefList}>
       <li className={styles.benefItem}>

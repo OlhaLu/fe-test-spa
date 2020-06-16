@@ -7,10 +7,24 @@
 }
 
 .navItem {
-  margin: 0 20px;
+  width: 150px;
+  height: 80px;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.navItem:hover {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(143, 61, 61);
+  cursor: pointer;
 }
 
 .link {
-  color: aliceblue;
+  color: rgb(36, 29, 5);
   text-decoration: none;
+}
+
+.link:hover {
+  color: rgb(241, 239, 232);
 }
