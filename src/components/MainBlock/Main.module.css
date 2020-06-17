@@ -12,12 +12,16 @@
 }
 
 .mainTitle {
-  margin: 10px;
+  margin: 25px;
   font-size: 40px;
   color: #000000;
 }
 
-.mainTitle > span {
+.largeLetter {
   font-size: 78px;
   color: #ff213b;
+}
+
+.subTitle {
+  font-size: 16px;
 }

@@ -18,7 +18,9 @@ const Cost = () => (
         </p>
         <p className={styles.lastPrice}>399 грн</p>
         <p className={styles.nextPrice}> 299 грн</p>
-        <button className={styles.button}>Заказать</button>
+        <a href="#order" className={styles.button}>
+          Заказать
+        </a>
       </li>
       <li className={styles.item}>
         <h3 className={styles.title}>Lorem, ipsum</h3>
@@ -33,7 +35,9 @@ const Cost = () => (
         </p>
         <p className={styles.lastPrice}>599 грн</p>
         <p className={styles.nextPrice}>499 грн</p>
-        <button className={styles.button}>Заказать</button>
+        <a href="#order" className={styles.button}>
+          Заказать
+        </a>
       </li>
     </ul>
     <p className={styles.note}>
