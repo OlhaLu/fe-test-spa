@@ -2,7 +2,6 @@
   padding: 30px;
   margin: auto;
   text-align: center;
-  box-shadow: 0 14px 28px#cbd2d6, 0 10px 10px #cbd2d6;
 }
 
 .costTitle {
@@ -21,7 +20,8 @@
 }
 
 .item {
-  width: 400px;
+  box-shadow: 0 14px 28px#cbd2d6, 0 10px 10px #cbd2d6;
+  width: 500px;
   height: 560px;
   margin-right: 50px;
 }
@@ -29,7 +29,7 @@
 .title {
   font-size: 24px;
   padding: 15px;
-  width: 400px;
+  width: 500px;
   height: 60px;
   opacity: 0.8;
   background-color: #172c42;
