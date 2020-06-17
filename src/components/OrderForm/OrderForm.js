@@ -34,10 +34,10 @@ const OrderForm = () => {
               placeholder="Введите почту"
             ></input>
           </li>
-          <li>
-            <input type="submit" value="Заказать" />
-          </li>
         </ul>
+        <button className={styles.submit} type="submit">
+          Заказать
+        </button>
       </form>
     </div>
   );

@@ -1,5 +1,6 @@
 .container {
   width: 700px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   background-size: cover;
@@ -23,7 +24,7 @@
   background: #dddddd;
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 15px 0;
 }
 .form li {
   display: block;
@@ -58,19 +59,21 @@
   display: block;
   outline: none;
   border: none;
-  height: 20px;
+  height: 30px;
   line-height: 25px;
   font-size: 16px;
   padding: 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.form input[type='submit'] {
+.submit {
   width: 300px;
+  height: 50px;
   background: #ff213b;
   border: none;
   padding: 10px 20px 10px 20px;
   border-bottom: 3px solid #b9b9b9;
   border-radius: 3px;
   color: #d2e2ff;
+  font-size: 16px;
 }
