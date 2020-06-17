@@ -34,6 +34,7 @@ class OrderForm extends Component {
                 id="fname"
                 name="firstname"
                 placeholder="Введите имя"
+                required
               />
             </li>
             <li>
@@ -53,6 +54,7 @@ class OrderForm extends Component {
                 id="adr"
                 name="email"
                 placeholder="Введите почту"
+                required
               ></input>
             </li>
           </ul>

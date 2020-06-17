@@ -15,7 +15,7 @@ export default class Reviews extends Component {
     return (
       <div id="reviews" className="container">
         <style>{cssstyle}</style>
-        <h2>Отзывы</h2>
+        <h2 className="title">Отзывы</h2>
         <Slider {...settings}>
           <img
             alt="discriptions"
@@ -56,6 +56,11 @@ const cssstyle = `
     margin: 0 auto;
     padding: 0px 40px 40px 40px;
     width: 1000px;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 36px;
   }
   .slick-next:before, .slick-prev:before {
       color: #000;
